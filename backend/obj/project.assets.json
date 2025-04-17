@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "System.ServiceModel.Syndication/9.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.ServiceModel.Syndication.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.Syndication.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.ServiceModel.Syndication/9.0.4": {
+      "sha512": "j7WkV38j0ZSjG716WPR8YQfOnSs2qCMgFzzZzQnwzmyJtimsploZ0kjahpZsQ82DHg1EoCdGlrs+9zseNBs1nA==",
+      "type": "package",
+      "path": "system.servicemodel.syndication/9.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.ServiceModel.Syndication.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.ServiceModel.Syndication.targets",
+        "lib/net462/System.ServiceModel.Syndication.dll",
+        "lib/net462/System.ServiceModel.Syndication.xml",
+        "lib/net8.0/System.ServiceModel.Syndication.dll",
+        "lib/net8.0/System.ServiceModel.Syndication.xml",
+        "lib/net9.0/System.ServiceModel.Syndication.dll",
+        "lib/net9.0/System.ServiceModel.Syndication.xml",
+        "lib/netstandard2.0/System.ServiceModel.Syndication.dll",
+        "lib/netstandard2.0/System.ServiceModel.Syndication.xml",
+        "system.servicemodel.syndication.9.0.4.nupkg.sha512",
+        "system.servicemodel.syndication.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "System.ServiceModel.Syndication >= 9.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Moa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Moa\\Desktop\\terrarte\\backend\\TerrArteBackend.csproj",
+      "projectName": "TerrArteBackend",
+      "projectPath": "C:\\Users\\Moa\\Desktop\\terrarte\\backend\\TerrArteBackend.csproj",
+      "packagesPath": "C:\\Users\\Moa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Moa\\Desktop\\terrarte\\backend\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Moa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "System.ServiceModel.Syndication": {
+            "target": "Package",
+            "version": "[9.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

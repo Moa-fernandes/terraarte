@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gbg5chCQ4u0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Moa\\Desktop\\terrarte\\backend\\TerrArteBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Moa\\.nuget\\packages\\system.servicemodel.syndication\\9.0.4\\system.servicemodel.syndication.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eZEtVTcnYFxoIjv5WyVHQgG8KTAeEQuUUwBPR9bPoOY=",
+  "Source": "TerrArteBackend",
+  "BasePath": "_content/TerrArteBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
