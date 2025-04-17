@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TerrArteBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b2ab4742fe98b7aefd2c22676b9735b8aae63c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TerrArteBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TerrArteBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

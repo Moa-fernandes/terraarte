@@ -21,8 +21,10 @@ app.MapGet("/api/noticias", async (
     var termo = http.Request.Query["termo"].ToString();
     var dataInicio = http.Request.Query["dataInicio"].ToString();
     var dataFim = http.Request.Query["dataFim"].ToString();
+    var fontes = http.Request.Query["fontes"].ToString();
+    var idioma = http.Request.Query["idioma"].ToString();
 
-    var noticias = await service.BuscarNoticiasAsync(termo, dataInicio, dataFim);
+    var noticias = await service.BuscarNoticiasAsync(termo, dataInicio, dataFim, fontes, idioma);
     return Results.Json(noticias);
 });
 
