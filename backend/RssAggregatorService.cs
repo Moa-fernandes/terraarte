@@ -1,9 +1,17 @@
 #nullable enable
+using System;
 using System.Globalization;
+using System.Net.Http;
 using System.ServiceModel.Syndication;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Linq;
+using System.Text;
+
+
+
 
 namespace NoticiasRSSComFiltroTermo.Services
 {

@@ -24,3 +24,4 @@ C:\Users\Moa\Desktop\terrarte\backend\obj\Debug\net8.0\refint\TerrArteBackend.dl
 C:\Users\Moa\Desktop\terrarte\backend\obj\Debug\net8.0\TerrArteBackend.pdb
 C:\Users\Moa\Desktop\terrarte\backend\obj\Debug\net8.0\TerrArteBackend.genruntimeconfig.cache
 C:\Users\Moa\Desktop\terrarte\backend\obj\Debug\net8.0\ref\TerrArteBackend.dll
+C:\Users\Moa\Desktop\terrarte\backend\obj\Debug\net8.0\TerrArteBackend.sourcelink.json
