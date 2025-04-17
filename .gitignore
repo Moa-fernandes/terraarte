@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# .NET
+bin/
+obj/
+
+# Svelte/Vite
+dist/
+
+# Outros
+.env
+.DS_Store
+*.log
